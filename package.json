@@ -1,6 +1,7 @@
 {
-  "name": "chatt-app",
+  "name": "chat-app",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
@@ -8,9 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "socket.io-client": "^4.8.1"
-  }
+  "license": "ISC"
 }
